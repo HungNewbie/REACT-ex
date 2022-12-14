@@ -190,7 +190,7 @@
           'User directory'
         ),
         _react2.default.createElement(_Userlist.Userlist, {
-          usernames: ['dog', 'cat', 'komodo'],
+          usernames: ['dog', 'cat', 'komodo', 'guineaPig', 'parrot', 'goldFish'],
           onChoose: props.onChoose
         })
       );
@@ -467,21 +467,39 @@
     var FAKE_USER_DATA = {
       cat: {
         name: 'Kitty Cat',
-        bio: "I'm the coolest cat around. I'm the cat's meow!",
+        bio: "Hi, I am a ginger cat (meow!), am I look cute? In my eye, hooman are just slaves to me, and I am their master. They often treat me like a king too. My favourite activity? Of course it is chasing the mouse (and the parrot too, he is such an annoying bird)!",
         profilePictureUrl: 'https://content.codecademy.com/courses/React/react_lifecycle_cat_profile_picture.jpg',
         friends: ['komodo']
       },
       dog: {
-        name: 'Doggy Dog',
-        bio: "I'm the doggity dog! Woof woof!",
-        profilePictureUrl: 'https://content.codecademy.com/courses/React/react_lifecycle_dog_profile_picture.jpg',
-        friends: ['komodo']
+        name: 'Mia the cutie',
+        bio: "Hi everyone (woof woof!), I am a small, cutie dog. My family love me, especially Claire. She often walk me with my neighbor dogs, and they are all friendly to me. The best thing is, I can choose to sleep with whoever I want everynight. I also have a lot of friends in my house too, they are friendly and fun to play with. Everyone treat me like a wee princess!",
+        profilePictureUrl: 'https://scontent-syd2-1.xx.fbcdn.net/v/t1.6435-9/83223544_3118410451522021_4967966642395938816_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=19026a&_nc_ohc=HcP-SbjznOIAX-EYejn&_nc_ht=scontent-syd2-1.xx&oh=00_AfAdxtICzhHIVMOul6BIDBIdlrVD2y31XBCa3j-wMkJ7Eg&oe=63BFD7C7',
+        friends: ['komodo', 'guineaPig', 'parrot']
       },
       komodo: {
         name: 'Lizard Lady',
-        bio: "I'm a Komodo dragon. You'll love me.",
+        bio: "I'm a Komodo dragon. You'll love me, that's for sure. Love playing with Mia and Kitty.",
         profilePictureUrl: 'https://content.codecademy.com/courses/React/react_lifecycle_komodo_profile_picture.jpg',
         friends: ['cat', 'dog']
+      },
+      guineaPig: {
+        name: 'George the Guinea Pig',
+        bio: "I am a small mouse. I hate the cat, he always chase me around the house, but I can play with Mia. She is so cute and friendly!",
+        profilePictureUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/George_the_amazing_guinea_pig.jpg/1200px-George_the_amazing_guinea_pig.jpg',
+        friends: ['dog']
+      },
+      goldFish: {
+        name: 'Goldie the pretty girl',
+        bio: "Hi everyone, I am just an original gold fish. All I do every day is swimming around watching Kitty chasing the mouse, or listen to Iago talking non-stop to my owner. The dog doesn't seem to bother me, may be because she is busy playing with my owner instead of looking at me. So I am kinda feel lonely too, if only my owner purchase more fishes then I would have more friends to play with me.",
+        profilePictureUrl: 'https://cf.ltkcdn.net/aquariums/fish-names/images/orig/324592-1600x1066-goldfish-swimming-in-fish-tank.jpg',
+        friends: ['parrot']
+      },
+      parrot: {
+        name: 'Iago the Evil Parrot',
+        bio: "In the past, I followed my master Jafar, who tried to become a Sultan and marry Princess Jasmine. However, now that Jafar is gone, somehow I end up become a pet in this family. Unlike other parrots, I can understand human language, and often micmic my new master voice as well. Would love to become friend with Mia, she is such a cutie!",
+        profilePictureUrl: 'https://upload.wikimedia.org/wikipedia/en/d/da/IagoDisneyCharacter.png',
+        friends: ['dog', 'goldFish']
       }
     };
     

@@ -13,8 +13,8 @@ const FAKE_USER_DATA = {
       friends: ['komodo'],
     },
     dog: {
-      name: 'Doggy Dog',
-      bio: "I'm the doggity dog! Woof woof!",
+      name: 'Mia',
+      bio: "I'm the  dog! Woof woof!",
       profilePictureUrl:
         'https://content.codecademy.com/courses/React/react_lifecycle_dog_profile_picture.jpg',
       friends: ['komodo'],
